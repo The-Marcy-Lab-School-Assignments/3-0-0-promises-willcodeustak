@@ -48,7 +48,7 @@ module.exports = {
 };
 
 /*
-first non-original code
+first attempt : non working code. Used crypto by mistake... ?
 	const colors = [];
 	return getRandomBytes()
 		.then((resolve) => {
