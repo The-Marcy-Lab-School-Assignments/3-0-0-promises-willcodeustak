@@ -14,10 +14,11 @@ const getRandomBytes = () =>
 
 const return4RandomColors = () => {
 	const colors = [];
+	// Chain promises to generate random colors
 	return getRandomBytes()
 		.then((buffer1) => {
-			colors.push(numsToRGBColor(buffer1));
-			return getRandomBytes();
+			colors.push(numsToRGBColor(buffer1)); //Convert buffer to RGB color and push to colors array
+			return getRandomBytes(); //grabbing another set of random bytes
 		})
 		.then((buffer2) => {
 			colors.push(numsToRGBColor(buffer2));
