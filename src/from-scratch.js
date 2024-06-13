@@ -1,3 +1,4 @@
+/** FEEDBACK: I love that you are taking your assignments with so much care! I see that you have multiple solutions for some questions and you have also added comments to code that may seem confusing in the future! Keep up the great work! */
 //ShortCut
 // const resolvedWrapper = (value) => {
 // 	return Promise.resolve(value);
